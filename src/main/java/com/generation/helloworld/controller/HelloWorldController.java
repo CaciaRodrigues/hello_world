@@ -10,7 +10,9 @@ public class HelloWorldController {
 	
 	@GetMapping
 	public String helloWorld() {
-		return "Hello World!!!";
+		
+		return "<h1 style='color: #91545B'>Hello World!!!<h1>";
+		
 	}
 
 }
